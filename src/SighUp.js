@@ -27,7 +27,7 @@ const SignupFormemp = () => {
       toast.warning('Please enter password')
     }
     const validatePassword = (password) => {
-      if (password.length < 8) {
+      if (password.length < 10) {
         return false;
       }
 
